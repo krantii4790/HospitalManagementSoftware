@@ -1,0 +1,21 @@
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Inter', 'Roboto', sans-serif;
+  background: #f0f4f8;
+}
+
+/* Snackbar success style */
+.snack-success .mdc-snackbar__surface {
+  background: #2e7d32 !important;
+}
+
+/* Mat table row transitions */
+.mat-mdc-row { transition: background 0.1s; }
+
+/* Remove mat-card default padding quirks */
+.mat-mdc-card-content:first-child { padding-top: 16px; }
